@@ -1,0 +1,48 @@
+li {
+    color: brown;
+}
+
+.verde-negrita {
+    color:  #50702E;
+    font-weight: bold;
+}
+
+.rojo {
+    background-color: rgb(252, 145, 145);
+}
+    
+#recetaCaC {
+    text-align: center;
+    
+}
+#recetaCaC a {
+    color: rgb(224, 21, 6);
+}
+
+img {
+    display: block; 
+    /*display me permite definir 
+    como quiero que trate el elemento*/ 
+}
+
+h1, h2 {
+    display: inline;
+}
+
+#especial {
+    font-size: 1rem;
+}
+
+#eltitulo {
+    font-size: 2rem;
+}
+
+html {
+    /*font-size: 16px; (por defecto)*/
+    font-size: 18px;
+}
+
+.amarillo {
+    background: rgb(250, 250, 112);
+
+}
