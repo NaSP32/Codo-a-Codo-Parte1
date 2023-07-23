@@ -1,19 +1,5 @@
-<h1><font color="pink" >  Repositorio con prácticas del programa de capacitación del gobierno de la ciudad de Buenos Aires "Codo a Codo"<font> </h1>
+<h1>  Repositorio con prácticas del programa de capacitación del gobierno de la ciudad de Buenos Aires "Codo a Codo" </h1>
 
-<span style="font-family:Papyrus; font-size:4em;">ENAMORADO!</span> 
-En su barba vivían tres <span style="color: red;">cardenales</span>.
-
-\textcolor{red}{el texto}
-
-${\color{blue}Laboratorio: Python}$
-
-<span style="color:red">
-Text content
-</span>  
-
-
-<span style="color:blue;">Texto *rojo cursiva* normal</span>.
-  
 <image src="/img/CaC-imagen-md.jpg" alt="Imagen de la institución que desarrolla el curso" width="250px" caption="Cursos de programación del gobierno de la ciudad de Buenos Aires">
 
 ### Esta capacitación esta orientada al desarrollo web con **Java**, en esta primera etapa se trabajan conceptos básicos de ***HTML y Css***
