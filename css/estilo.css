@@ -13,6 +13,7 @@ li {
     
 #recetaCaC {
     text-align: center;
+    text-transform: lowercase; /*convierte todo el txt a minus*/
     
 }
 #recetaCaC a {
@@ -22,7 +23,7 @@ li {
 img {
     display: block; 
     /*display me permite definir 
-    como quiero que trate el elemento*/ 
+    como quiero que trate el elemento: en linea o en bloque*/ 
 }
 
 h1, h2 {
@@ -35,14 +36,53 @@ h1, h2 {
 
 #eltitulo {
     font-size: 2rem;
+    text-decoration-line: line-through; 
+    text-decoration-color: rgb(247, 27, 71);
+    
+    
 }
 
 html {
     /*font-size: 16px; (por defecto)*/
     font-size: 18px;
+    /*font-family:Arial, Helvetica, sans-serif;*/
+
+    /*font-family: 'Frank Ruhl Libre', serif;*/
+    font-family: 'Merienda', cursive;
+    /*font-family: 'Ubuntu', sans-serif;*/
+}
+
+h1 {
+    font-family:'Ubuntu', sans-serif;
+    text-transform: uppercase; /*Convierte a mayus*/
+    text-decoration: underline red wavy 3px;
+}
+
+h2 {
+    text-transform: capitalize;
+    /*cada palabra con inicial mayus*/
+}
+
+h3 {
+    
+    text-transform: uppercase;
+
+}
+
+p {
+   font-weight: 400;
+   text-align: justify;
 }
 
 .amarillo {
     background: rgb(250, 250, 112);
 
+}
+
+ol {list-style-type: lower-greek;
+
+}
+
+.ingredientes {
+    list-style-image: url("../img/milas-a-ver.jfif");
 }

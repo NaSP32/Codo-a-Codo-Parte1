@@ -178,7 +178,7 @@ Los pixeles son relativos, depende en que dispositivo lo vea los puedo distingui
 UNIDADES RELATIVAS:
 Especifican su longitud, dependiendo de otra:
 
-em: Es una medida relativa y equivale al tamaño actual de la fuente: 16 px. Toma el valor de su ancestro (etiqueta) más cercana.
+em: Es una medida relativa y equivale al tamaño actual de la fuente de su contenedor: 16 px. Toma el valor de su ancestro (etiqueta/contenedor) más cercana.
 
 rem: La referencia es al html. Es relativo siempre al font-size del html.
 Para las fuentes es conveniente usar em y rem. 
@@ -188,3 +188,57 @@ Porcentaje: Se maneja como el em: si quiero 1em = 100%   2em = 200%    0.5em = 5
 16px = 1em = 100%
 
 Los h1, h2, h3 están basados en em. 
+
+CLASE 6 
+FUENTES- TIPOS - PROPIEDADES - GOOGLE FONTS
+
+1- Google fonts- para seleccionar las fuentes que quiero utilizar en mi web. Copio las url en el head del html y las defino en css utilizando font-family: "nombre de la fuente";
+
+2- Propiedades:
+text-transform: capitalize; --> Convierte cada primer letra a mayuscula
+text-transform: uppercase; --> Todo a mayus
+text-transform: lowercase; --> Todo a minus
+
+Subrayar: 
+text-decoration: line-through; --> Tacha al medio
+text-decoration: overline; --> arriba del txt 
+text-decoration: underline; --> subraya 
+
+Ponerle color a la línea de subrayado: 
+text-decoration-color: rgb(247, 27, 71);
+
+Poner varias propiedades al subrayado: 
+text-decoration: underline red double 5px;
+
+Cambiar el estilo de las viñetas:
+list-style-type circle
+list-style-type square
+list-style-type none --> elimina la viñeta
+
+Para listas ordenadas:
+
+list-style-type decimal
+list-style-type upper-roman
+list-style-type armenian
+list-style-type greek
+
+Controlar si todas las letras se ven normales o con versalitas:
+
+font-variant normal --> Valor normal
+font-variant small-caps --> VERSALiTAS (Todas mayus, pero la 1ª mas grande)
+
+Modificar el espaciado entre letras:
+letter-spacing 0.2 em
+letter-spacing 0.5 em
+letter-spacing -0.5 em
+
+Modificar el espacio entre palabras: word-spacing
+Modificar espacios en banco: white-spaces
+
+Modificar la direccion de un texto:
+writing-mode horizontal-tb --> Horizontal
+writing-mode vertical-rl
+writing-mode vertical-lr
+
+
+
