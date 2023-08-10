@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> <!--Se colocan etiquetas de metadatos, inf acerca de la pagina web, una configuración-->
+        <title>Receta de ravioles</title><!--Es el nombre de la pestaña-->
+        <meta charset="UTF-8"><!--Para que se lean las tíldes, caracteres especiales -->
+        <meta hhtp-equiv="X-UA-Compatible" content>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Es el cuadro que ve el usuario, permite que el zoom sea al 100% en el celular por ej, mas responsive-->
+        <meta name="author" content="Nadia Pereyra">
+        <meta name= "keywards" content="ravioles, receta, pasos, cocción"><!--Metadata: palabras claves de nuestra web -->
+        <meta name="description" content="Receta de como cocinar ravioles"><!--Por ej,le permite a la pagina poder ser amigable con una busqueda-->
+        <link rel="icon" type="image/x-icon" href="img/favaicon.jpg"><!--Las imagenes que se ven en el navegador en el mundito-->
+        <link rel="stylesheet" href="css/boxModel.css">
+    </head>
+    <body>
+    <!--es importante para los buscadores y para los 
+    lectores de textos de personas no videntes, marcar bien la semántica!-->
+        <!--Comentarios -->
+        <div class="fondo-claro"> 
+            <h1 class="rojo">Ravioles</h1> <!-- Titulo 1-->
+            <h2 class="rojo" >La pasta de los domingos</h2> <!-- Titulo 2 -->
+        </div>
+        <div class="fondo-oscuro">
+            <p class="verde-negrita">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span class="destacado">Iste sed.</span> distinctio quae recusandae sequi et explicabo ex odit doloribus? Voluptatibus quia officia placeat provident distinctio, voluptas totam est similique enim.</p><!--Párrafos-->
+            <p class="rojo verde-negrita">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptatem aut quam, veniam odit modi odio repellat consequatur ea tenetur reprehenderit corrupti, magni cum. Ea exercitationem excepturi illo eligendi sed.</p>        
+        </div>
+        <!--Para agregar una imagen desde la web-->
+        <!-- <img src= "https://media.istockphoto.com/id/938742222/es/foto/pizza-de-pepperoni-cheesy.jpg?s=612x612&w=0&k=20&c=GUwbHCrMdnpHGmTzHVPk2U9flWi3WgMVdfdOeBMU00E=" alt="Foto de una pizza" width="300px">-->  <!--Esta etiqueta no tiene cierre. Por sí sola ya es el contenido--><!--El atributo alt permite describir la foto y la semantica para los lectores de pantalla para personas no videntes-->
+        <div class="fotos">
+            <img src="img/ravioles-estahd.jpg" alt="Foto de un plato de ravioles"> <!--Ruta absoluta es de mi pc, desde el disco, desde el inicio. Es importante no usarlas-->
+        </div>
+        <div class="fondo-claro">
+            <div>
+                <h2 class="verde-negrita">Ingredientes necesarios para la cocción</h2>
+                <ul><!--Lista desordenada-->
+                    <li>Harina</li>
+                    <li>Levadura</li>
+                    <li>Sal</li>
+                    <li>Salsa de tomate</li>
+                    <li>Muzzarela</li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="verde-negrita">Pasos para la cocción</h2>
+                <ol><!--Lista Ordenada-->
+                    <li>Amasar</li>
+                    <li>Estirar</li>
+                    <li>Cocinar</li>
+                    <li>Servir</li>
+                </ol>
+            </div>
+        </div>
+        <div class="pie">
+            <p id="recetaCaC"><a class="rojo" href="https://www.paulinacocina.net/" target="_blank">Más recetas tocando acá</a></p>
+        </div><!--Para anclar enlaces, tienen que estar en etiquetas de párrafos-->
+        <!--Las etiquetas pueden tener una especificación, un atributo. En este caso href es un atributo-->
+        <!--El atributo target con el _blank me permite abrir el enlace en una pestaña nueva y no en la misma de la página web que estoy mirando-->
+
+        
+        <!--Incrustar un boton de mercado pago-->
+
+    </body>
+</html>
+
+
+

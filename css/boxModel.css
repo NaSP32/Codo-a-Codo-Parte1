@@ -1,0 +1,32 @@
+.fondo-claro{
+    background-color: rgb(243, 239, 139);
+}
+
+.fondo-oscuro{
+    background:rgb(84, 84, 41);
+    color: white;
+}
+
+.destacado {
+    font-weight: bold;
+    color: aqua;
+    font-size: 1.05em;
+}
+
+.pie{
+    background: #eee;
+    
+
+}
+
+.fotos {
+    background: blue;
+    max-width: 1000px;
+}
+
+.fotos img {
+    width: 1200px;  
+    opacity: 0.5;
+    
+
+}
